@@ -71,3 +71,14 @@ function check7(){
     console.log(num);
   }
 }
+
+/* 3부터 30까지 4의 배수만 출력하기 */
+function check8(){
+
+  for(let num = 3 ; num <= 30 ; num++){
+    if(num % 4 == 0)
+    
+    console.log(num);
+
+  }
+}
