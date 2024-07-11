@@ -9,8 +9,56 @@
 <body>
   <h1>UI구현_이홍종</h1>
 
-  <hr><hr><hr>
-  
-<script src="UI구현.js"></script>
+  <hr>
+
+  <div class="box1">
+    <div> <strong>너비 : </strong><input type="number" id="input1"></div>
+    <div> <strong>높이 : </strong><input type="number" id="input2"></div>
+  </div>
+  <br>
+  <div class="box2">
+    <div> <strong>글자크기 : </strong><input type="number" id="input3"></div>
+    <div> <strong>굵기 : </strong>
+      <label for="rnfrrl">보통</label> <input type="radio" name="rnfrrl" value="보통">
+      <label for="rnfrrl">굵게</label> <input type="radio" name="rnfrrl" value="굵게">
+    </div>
+  </div>
+  <br>
+  <div class="box3">
+    <div> <strong>글자색 :</strong> <input type="text" id="input4"></div>
+    <div> <strong>배경색 :</strong> <input type="text" id="input5"></div>
+  </div>
+  <br>
+  <div class="box4">
+    <div> <strong>가로정렬 :</strong>
+    <label for="rkfh">왼쪽</label> <input type="radio" name="rkfh" value="왼쪽">
+    <label for="rkfh">가운데</label> <input type="radio" name="rkfh" value="가운데">
+    <label for="rkfh">오른쪽</label> <input type="radio" name="rkfh" value="오른쪽">
+    </div>
+  </div>
+  <br>
+  <div class="box5">
+    <div> <strong>세로정렬 :</strong>
+    <label for="tpfh">위</label> <input type="radio" name="tpfh" value="위">
+    <label for="tpfh">가운데</label> <input type="radio" name="tpfh" value="가운데">
+    <label for="tpfh">아래</label> <input type="radio" name="tpfh" value="아래">
+    </div>
+  </div>
+  <br>
+  <div class="box6">
+    <div> 
+      <strong>출력문자열 :</strong>
+      <input type="text" id="input6">
+    </div>
+  </div>
+  <br>
+
+  <button id="changeButton">적용하기</button>
+  <br><br>
+
+
+    <div id="Background"></div>
+
+    <script src="UI구현.js"></script>
 </body>
 </html>
